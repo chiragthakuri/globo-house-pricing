@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projects\\globo\\Api\\Api.csproj": {}
+    "E:\\projects\\globo\\api\\Api.csproj": {}
   },
   "projects": {
-    "E:\\projects\\globo\\Api\\Api.csproj": {
+    "E:\\projects\\globo\\api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\globo\\Api\\Api.csproj",
+        "projectUniqueName": "E:\\projects\\globo\\api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "E:\\projects\\globo\\Api\\Api.csproj",
+        "projectPath": "E:\\projects\\globo\\api\\Api.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\globo\\Api\\obj\\",
+        "outputPath": "E:\\projects\\globo\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -4,3 +4,5 @@ Api/Migrations/
 # Ignore data folder
 Api/Data/
 
+reactweb/node_modules
+
