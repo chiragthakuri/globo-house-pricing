@@ -1,1 +1,6 @@
+# Ignore migration files
 Api/Migrations/
+
+# Ignore data folder
+Api/Data/
+
