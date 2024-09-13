@@ -21,7 +21,7 @@ const useAddHouse = () =>{
     const queryClient = useQueryClient();
     return useMutation<AxiosResponse, AxiosError, House>
     (
-        (h) => axios.post(`config.baseApiUrl}/houses`, h),
+        (h) => axios.post(`${config.baseApiUrl}/houses`, h),
         {
             onSuccess: () =>
                 {
@@ -37,7 +37,7 @@ const useUpdateHouse = () =>{
     const queryClient = useQueryClient();
     return useMutation<AxiosResponse, AxiosError, House>
     (
-        (h) => axios.put(`config.baseApiUrl}/houses`, h),
+        (h) => axios.put(`${config.baseApiUrl}/houses`, h),
         {
             onSuccess: (_, house) =>
                 {
@@ -53,7 +53,7 @@ const useDeleteHouse = () =>{
     const queryClient = useQueryClient();
     return useMutation<AxiosResponse, AxiosError, House>
     (
-        (h) => axios.delete(`config.baseApiUrl}/houses/${h.id}`),
+        (h) => axios.delete(`${config.baseApiUrl}/houses/${h.id}`),
         {
             onSuccess: () =>
                 {
