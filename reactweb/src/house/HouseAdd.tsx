@@ -1,5 +1,6 @@
 import { useAddHouse } from "../hooks/HouseHooks"
 import { House } from "../types/house";
+import ValidationSummary from "../ValidationSummary";
 import HouseForm from "./HouseForm";
 
 const HouseAdd = () => {
@@ -15,10 +16,15 @@ const HouseAdd = () => {
     };
 
   return (
+    <>
+    {addHouseMutation.isError &&(
+      <ValidationSummary error={addHouseMutation.error} />
+    )}
    <HouseForm 
         house={house}
         submitted={h => addHouseMutation.mutate(h)}
     />
+    </>
   );
 }
 
