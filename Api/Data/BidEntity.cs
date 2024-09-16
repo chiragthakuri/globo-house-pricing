@@ -9,6 +9,4 @@ public class BidEntity
     public string Bidder {get; set;} = string.Empty;
 
     public int Amount {get; set;}
-
-
 }
